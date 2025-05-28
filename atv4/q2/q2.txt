@@ -1,0 +1,21 @@
+1) É uma mecanica que permite criar uma nova classe baseada em uma classe já existente, essim ela vai aproveitar os atributos e métodos da classe referência, a nova classe será uma subclasse e a classe já existente será denomindada como superclasse.
+
+2) A superclasse é mais generica e fornece atributos e metedos mais basicos, já a subclasse é mais especifica quanto aos seus atributos e metodos. 
+ex: superclasse = veiculo e subclasse = carro
+
+3) Significa que a classe Estudante é herdeira da classe Pessoa, ou seja, Estudante possui todas as caracteristicas de Pessoa, mas Pessoa não tem todas as caracteristicas e Estudante.
+
+4) As principais vantagens são a reutilização do codigo, facilidade na manuntenção e organização. uma subclasse não consegue acessar diretamente atributos declarados como private na superclasse porque porque private limita o acesso para o conteudo apenas a classe do atributo com private e isso pode ser resolvido usando metodos get e set.
+
+5) O simbolo é uma seta triangular e a direção é subclasse para a superclasse.
+
+6) Pra chamar um construtor de superclasse ou um metodo ou atributo da superclasse
+exemplos: super();          super.veiculoCarro();
+
+7) Pra evitar repetição de codigo e facilitar a manuntenção futuramente.
+
+8) Transporte seria a superclasse, TransporteTerrestre seria subclasse e Carro tambem seria subclasse.
+TransporteAereo como subclasse, Avião seria subclasse e Helicóptero tambem como subclasse.
+A herança serve para organizar as classes de forma que as mais gerais fiquem no topo e as mais especificas abaixo.
+
+9) O construtor padrão vai ser chamado, e só ocorrerá um erro se não existir um construtor padrão(construtor padrão não possui parametros).
